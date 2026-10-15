@@ -1,0 +1,58 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style des cartes */
+.card {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    background-color: #2da44e;
+    color: white;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+}
+
+.subtitle {
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+
+/* Contenu */
+h2 {
+    color: #2da44e;
+    border-bottom: 2px solid #e1e4e8;
+    padding-bottom: 5px;
+}
+
+.skills-list {
+    list-style-type: square;
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
